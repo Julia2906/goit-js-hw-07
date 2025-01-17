@@ -15,8 +15,35 @@ body {
 
 ul li {
   list-style: none;
-  padding: 0;
+}
+
+h2 {
+  display: block;
   margin: 0;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 0px;
+  padding-top: 16px;
+}
+
+.cotegory-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  max-width: 360px;
+}
+
+.item {
+  background-color: #f6f6fe;
+  max-width: 392px;
+  padding: 16px;
+  margin-bottom: 24px;
 }
 
 .gallery {
@@ -33,4 +60,127 @@ ul li {
   display: block;
   width: 360px;
   height: 300px;
+}
+
+.name-input {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-input {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  margin-top: 8px;
+}
+
+.password-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.password-input {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  margin-top: 8px;
+}
+
+.submit-btn {
+  background-color: #4e75ff;
+  color: #ffff;
+  border: 1px solid #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  margin-top: 16px;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.change-color {
+  background-color: #4e75ff;
+  color: #ffff;
+  border: 1px solid #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 116px;
+  margin-top: 16px;
+}
+
+p {
+  margin: 0;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6fe;
+  padding: 32px;
+  width: 486px;
+}
+
+.input-number {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  width: 150px;
+  text-align: center;
+}
+
+.create-btn {
+  background-color: #4e75ff;
+  color: #ffff;
+  border: 1px solid #4e75ff;
+  border-radius: 8px;
+  padding: 8px 31.5px;
+  width: 120px;
+}
+
+.destroy-btn {
+  background-color: #ff4e4e;
+  color: #ffff;
+  border: 1px solid #ff4e4e;
+  border-radius: 8px;
+  padding: 8px 31.5px;
+  width: 120px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
 }
